@@ -1,33 +1,56 @@
-### esercizio di oggi:
+# 1- Scambia il contenuto di due variabili a e b, in modo che la prima contenga il valore contenuto nella seconda e viceversa:
 
-# calcolo del prezzo del biglietto del treno
+let a = "montagna";
+let b = "mare";
 
-cartella/repo:
+# 2- Stampa questo bellissimo alberello in console:
 
-### js-biglietto-treno-form
+- \*\*
 
-Descrizione:
-Scrivere un programma che chieda all'utente:
+  ***
 
-- Il numero di chilometri da percorrere
-- Età del passeggero
-  Sulla base di queste informazioni dovrà calcolare il prezzo totale del biglietto di viaggio, secondo le seguenti regole:
-- il prezzo del biglietto è definito in base ai km (0.21 € al km)
-- va applicato uno sconto del 20% per i minorenni
-- va applicato uno sconto del 40% per gli over 65.
+  ***
 
-## MILESTONE 1:
+  ***
 
-Iniziamo implementando il programma senza alcuna estetica: usando esclusivamente due input e un bottone (non stilizzati), realizziamo le specifiche scritte sopra. La risposta finale (o output) sarà anch'essa da scrivere in console.
+  ***
 
+  ||
+  bonus- Stampa l'albero completo:
 
-## MILESTONE 2:
+       *
+      ***
 
-Solo una volta che il milestone 1 sarà completo e funzionante allora realizzeremo un form in pagina in cui l'utente potrà inserire i dati e visualizzare il calcolo finale con il prezzo.
-Il recap dei dati e l'output del prezzo finale (cioè il biglietto) andranno quindi stampati in pagina. Il prezzo dovrà essere formattato con massimo due decimali, per indicare i centesimi sul prezzo.
+  ***
 
-### BONUS:
+  ***
 
-Visualizzare il biglietto solo dopo che l'utente ha cliccato sul bottone.
-Nota:
-Se non vi sentite particolarmente creativi, questa potrebbe essere un'implementazione da seguire per il secondo milestone. Potete scegliere di implementare una soluzione completamente diversa oppure simile, ma in ogni caso cercate di farla vostra.
+  ***
+
+       |
+
+# 3- Dato questo array di numeri crea due array, uno con tutti i numeri pari e l'altro con tutti quelli dispari
+
+const numeri = [4, 5, 3,1, 11, 21, 23, 0 , 2, 44, 19, 99, 100, 2, 3, 1]
+
+# 4- Dato questo array di nomi ordinato in ordine alfabetico, trova la prima persona fuori posto.
+
+const nomi = ["Amelia", "Ciro","Edoardo", "Giovanni", "Guido", "Lucia", "Marco", "Bastiano", "Ottavia", "Zeno"]
+
+# 5- Scrivi un ciclo for che stampa in console il countdown da 10 a 0, poi trasforma il ciclo for in un ciclo while.
+
+super bonus - Data una stringa contenente una frase stampane la cornicetta
+
+let frase = "il mattino ha l'oro in bocca"
+deve stampare:
+
+---
+
+- il \*
+- mattino \*
+- ha \*
+- l'oro \*
+- in \*
+- bocca \*
+
+---

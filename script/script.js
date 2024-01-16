@@ -53,3 +53,11 @@ for(i = 0; i < numeri.length; i ++){
 
 console.log(pari)
 console.log(dispari)
+
+// 5- Scrivi un ciclo for che stampa in console il countdown da 10 a 0, poi trasforma il ciclo for in un ciclo while.
+
+// super bonus - Data una stringa contenente una frase stampane la cornicetta
+
+for(i = 10; i >= 0; 1 --){
+
+}
