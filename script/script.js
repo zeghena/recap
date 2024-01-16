@@ -34,5 +34,22 @@ for(let i = 0; i < 6; i ++){
 console.log(asterisco)
 }
 
-const tronco = "||"
+const tronco = "||";
 console.log(tronco)
+
+// 3- Dato questo array di numeri crea due array, uno con tutti i numeri pari e l'altro con tutti quelli dispari
+
+const numeri = [4, 5, 3,1, 11, 21, 23, 0 , 2, 44, 19, 99, 100, 2, 3, 1]
+
+const pari = [];
+const dispari = [];
+
+for(i = 0; i < numeri.length; i ++){
+  if(numeri[i] % 2 == 0)
+  pari.push(numeri[i]);
+  else
+  dispari.push(numeri[i]);
+}
+
+console.log(pari)
+console.log(dispari)
