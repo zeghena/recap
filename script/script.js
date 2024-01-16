@@ -33,3 +33,6 @@ for(let i = 0; i < 6; i ++){
   asterisco = asterisco + "*";
 console.log(asterisco)
 }
+
+const tronco = "||"
+console.log(tronco)
